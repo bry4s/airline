@@ -1,0 +1,19 @@
+GET http://localhost:8000/api/trips HTTP/1.1
+###
+
+GET http://localhost:8000/api/trip HTTP/1.1
+id: 3
+###
+
+POST http://localhost:8000/api/trip HTTP/1.1
+Content-Type : application/json
+
+{
+    "plane_id": 1,
+    "price": 1.5,
+    "from": "dhbk",
+    "to": "dfhbkl",
+    "departure": "2025-3-3 23:23:23",
+    "arrival": "2025-3-4 23:23:23"
+}
+###
